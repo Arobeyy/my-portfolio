@@ -6,3 +6,14 @@
     display: flex;
   }
 }
+
+@media screen and (max-width: 800px) {
+  .section__pic-container {
+    display: none;
+  }
+
+  .section__text {
+    font-size: 1.5rem;
+  }
+
+}
