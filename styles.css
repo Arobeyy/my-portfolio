@@ -13,6 +13,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  border: solid;
 }
 
 html {
@@ -153,9 +154,11 @@ a:hover {
   transform: none;
 }
 
+/* SECTIONS */
+
 section {
-  padding-top: 4vh;
-  height: 98vh;
+  padding-top: 5vh;
+  height: 95vh;
   padding: 0 2.5rem;
   box-sizing: border-box;
   min-height: fit-content;
@@ -165,17 +168,17 @@ section {
   display: flex;
 }
 
-/* profile */
+/* PROFILE SECTION */
 
 #profile {
   display: flex;
   justify-content: center;
-  gap: 6rem;
-  height: 80vh;
+  gap: 5rem;
+  height: 85vh;
 }
 
-.section__pic-container {
-  background-image:url('assets/undraw_web_devices_re_m8sc\ \(1\).svg');
+.section__pic-profile {
+  background-image: url("assets/undraw_web_devices_re_m8sc\ \(1\).svg");
   background-size: cover;
   background-position: right;
   background-repeat: no-repeat;
@@ -185,9 +188,16 @@ section {
   margin: auto 0;
 }
 
+.section__pic-container {
+  display: flex;
+  height: 400px;
+  width: 400px;
+  margin: auto 0;
+}
+
 .section__cat-pic {
   display: flex;
-  width: 170px;
+  width: 160px;
 }
 
 .section__laptop-pic {
@@ -195,15 +205,30 @@ section {
   width: 250px;
 }
 
-.section__window-pic {
-  display: flex;
-  width: 250px;
+
+.section__text-headline {
+  align-self: center;
+  text-align: left;
+  font-size: 2rem;
 }
 
 .section__text {
   align-self: center;
-  text-align: left;
+  text-align: center;
+}
+
+.section__text__p1 {
+  text-align: center;
+}
+
+.section__text__p2 {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+}
+
+.title {
   font-size: 2rem;
+  text-align: center;
 }
 
 .section__eyebrow {
@@ -217,6 +242,7 @@ section {
   display: flex;
   justify-content: center;
   margin-top: 1rem;
+  gap: 1rem;
 }
 
 /* ICONS */
@@ -224,7 +250,6 @@ section {
 .icon {
   cursor: pointer;
   height: 1.5rem;
-  padding-left: 0.5rem;
 }
 
 /* BUTTONS */
@@ -244,7 +269,7 @@ section {
 
 .btn-color-1,
 .btn-color-2 {
-  border: #3f645b .1rem solid;
+  border: #3f645b 0.1rem solid;
 }
 
 .btn-color-1:hover,
@@ -254,15 +279,15 @@ section {
 
 .btn-color-1,
 .btn-color-2:hover {
-  background: #3f645b ;
+  background: #3f645b;
   color: white;
 }
 
 .btn-color-1:hover {
-  background:#3f645b ;
+  background: #3f645b;
 }
 
-.btn-color-2{
+.btn-color-2 {
   background: none;
 }
 
@@ -276,3 +301,56 @@ section {
   gap: 1rem;
 }
 
+
+/* ABOUT SECTION */
+
+#about {
+  position: relative;
+}
+
+.about-containers {
+  gap: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.about-details-container {
+  justify-content: center;
+  flex-direction: column;
+}
+
+.about-containers, 
+.about-details-container{
+  display: flex;
+}
+
+.about-pic {
+  border-radius: 2rem;
+}
+
+.arrow {
+  position: absolute;
+  right: 5rem;
+  bottom: 2.5rem;
+}
+
+.details-container {
+  padding: 1.5rem;
+  flex: 1;
+  background: white;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb (163, 163, 163);
+  text-align: center;
+}
+
+.section-container {
+  gap: 4rem;
+  height: 80%;
+}
+
+.section__pic-container {
+  height: 400px;
+  width: 400px;
+  margin: auto 0;
+}
