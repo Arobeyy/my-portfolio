@@ -112,6 +112,7 @@ a:hover {
   max-height: 0;
   overflow: hidden;
   transition: all 0.3 ease-in-out;
+  border-radius: 10px;
 }
 
 .menu-links a {
@@ -174,9 +175,9 @@ section {
 }
 
 .section__pic-container {
-  background-image:url('assets/undraw_Responsive_re_e1nn.png');
+  background-image:url('assets/undraw_web_devices_re_m8sc\ \(1\).svg');
   background-size: cover;
-  background-position: center;
+  background-position: right;
   background-repeat: no-repeat;
   display: flex;
   height: 500px;
@@ -243,7 +244,7 @@ section {
 
 .btn-color-1,
 .btn-color-2 {
-  border: rgb(53, 53, 53) 0.1rem solid;
+  border: #3f645b .1rem solid;
 }
 
 .btn-color-1:hover,
@@ -253,12 +254,12 @@ section {
 
 .btn-color-1,
 .btn-color-2:hover {
-  background: rgb(53, 53, 53);
+  background: #3f645b ;
   color: white;
 }
 
 .btn-color-1:hover {
-  background: rgb (0, 0, 0);
+  background:#3f645b ;
 }
 
 .btn-color-2{
