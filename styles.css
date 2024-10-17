@@ -13,7 +13,6 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  border: solid;
 }
 
 html {
@@ -70,7 +69,7 @@ a:hover {
 .logo {
   font-family: "Dancing Script", cursive;
   font-weight: bold;
-  font-size: 2.5rem;
+  font-size: 3rem;
 }
 
 .logo:hover {
@@ -210,6 +209,7 @@ section {
   align-self: center;
   text-align: left;
   font-size: 2rem;
+  padding-left: 3rem;
 }
 
 .section__text {
@@ -306,6 +306,8 @@ section {
 
 #about {
   position: relative;
+  background-color: #F7EDE2;
+  height: 100vh;
 }
 
 .about-containers {
@@ -328,6 +330,10 @@ section {
   border-radius: 2rem;
 }
 
+.about-para {
+  padding-top: 3rem;
+}
+
 .arrow {
   position: absolute;
   right: 5rem;
@@ -337,7 +343,7 @@ section {
 .details-container {
   padding: 1.5rem;
   flex: 1;
-  background: white;
+  background: #F7EDE2;
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb (163, 163, 163);
