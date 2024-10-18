@@ -14,6 +14,7 @@
 body {
   font-family: "Poppins", sans-serif;
   border: solid;
+  background-color: #F7EDE2;
 }
 
 html {
@@ -434,7 +435,7 @@ article .icon {
 
 .project-img {
   border-radius: 2rem;
-  width: 80%;
+  width: 90%;
   height: 90%;
 }
 
@@ -473,7 +474,7 @@ article .icon {
   align-items: center;
   justify-content: center;
   margin: 1rem;
-  gap: 0.7rem;
+  gap: 0.10rem;
 }
 
 .contact-info-container p {

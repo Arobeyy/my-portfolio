@@ -62,7 +62,6 @@
   }
 }
 
-
 @media screen and (max-width: 600px) {
   #contact,
   footer {
@@ -103,7 +102,7 @@
   }
 
   .logo {
-    font-size: 1.5rem;
+    font-size: 2.3rem;
   }
 
   .nav-links {
@@ -138,5 +137,5 @@
     width: 80%;
     height: 70%;
   }
-
 }
+
