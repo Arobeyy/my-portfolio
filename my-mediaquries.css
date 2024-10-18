@@ -46,23 +46,6 @@
   }
 }
 
-@media screen and (max-width: 900px) {
-  .section__pic-profile {
-    display: none;
-  }
-
-  .section__text-headline {
-    font-size: 1.5rem;
-    padding: 0;
-  }
-
-  .btn-container-profile {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-  }
-}
-
-
 @media screen and (max-width: 600px) {
   #contact,
   footer {
@@ -138,5 +121,20 @@
     width: 80%;
     height: 70%;
   }
+}
 
+@media screen and (max-width: 900px) {
+  .section__pic-profile {
+    display: none;
+  }
+
+  .section__text-headline {
+    font-size: 1.3rem;
+    padding: 0;
+  }
+
+  .btn-container-profile {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
 }
