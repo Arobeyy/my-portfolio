@@ -13,7 +13,6 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  border: solid;
 }
 
 html {
@@ -161,7 +160,7 @@ section {
   height: 95vh;
   box-sizing: border-box;
   min-height: fit-content;
-  padding: 0 2rem;
+  margin: 0 2rem;
 }
 
 .section-container {
@@ -401,19 +400,21 @@ section {
 }
 */
 
+/* 
+*/
 .article-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr)); /* Ensures that each element takes equal space */
   gap: 2rem; /* Controls the space between grid items */
-  justify-items: center; /* Centers items within their grid cells */
+  justify-items: center; /* Centers items within their grid cells */ 
 }
+
 
 article {
   display: flex;
   width: 10rem;
   justify-content: space-between;
   gap: 2rem;
-  width: 80%;
 }
 
 article .icon {
@@ -424,7 +425,6 @@ article .icon {
 
 #projects {
   position: relative;
-  height: 100vh;
 }
 
 .color-container {
@@ -473,7 +473,7 @@ article .icon {
   align-items: center;
   justify-content: center;
   margin: 1rem;
-  gap: 0.7rem;
+  gap: 0.5rem;
 }
 
 .contact-info-container p {
@@ -492,6 +492,7 @@ article .icon {
 
 footer {
   height: 26vh;
+  margin: 0 1rem;
 }
 
 footer p {

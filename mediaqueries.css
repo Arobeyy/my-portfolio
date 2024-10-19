@@ -18,7 +18,7 @@
 
   #experience,
   .experience-details-container {
-    margin-top: 2rem;
+    padding-top: 2rem;
   }
 
   #profile,
@@ -46,6 +46,14 @@
   }
 }
 
+@media screen and (max-width: 1024px) {
+
+  #profile {
+    display: flex;
+  }
+
+}
+
 @media screen and (max-width: 900px) {
   .section__pic-profile {
     display: none;
@@ -66,7 +74,7 @@
   #contact,
   footer {
     height: 40vh;
-    width: fit-content;
+    min-width: fit-content;
   }
 
   #profile {
@@ -102,7 +110,7 @@
   }
 
   .logo {
-    font-size: 2.3rem;
+    font-size: 2rem;
   }
 
   .nav-links {
