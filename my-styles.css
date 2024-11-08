@@ -176,32 +176,16 @@ section {
   height: 85vh;
 }
 
-.section__pic-profile {
-  background-image: url("assets/undraw_web_devices_re_m8sc\ \(1\).svg");
-  background-size: cover;
-  background-position: right;
-  background-repeat: no-repeat;
+.section__pic-container {
   display: flex;
   height: 500px;
   width: 500px;
   margin: auto 0;
 }
 
-.section__pic-container {
+.section__profile-pic {
   display: flex;
-  height: 400px;
-  width: 400px;
-  margin: auto 0;
-}
-
-.section__cat-pic {
-  display: flex;
-  width: 160px;
-}
-
-.section__laptop-pic {
-  display: flex;
-  width: 250px;
+  width: 450px;
 }
 
 
@@ -435,7 +419,7 @@ article .icon {
 .project-img {
   border-radius: 2rem;
   width: 80%;
-  height: 90%;
+  height: 100%;
 }
 
 .project-title {

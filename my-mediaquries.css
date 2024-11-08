@@ -35,12 +35,6 @@
     height: fit-content;
   }
 
-  .section-pic-container {
-    width: 275px;
-    height: 275px;
-    margin: 0 auto 2rem;
-  }
-
   .about-containers {
     margin-top: 0;
   }
@@ -55,7 +49,7 @@
 }
 
 @media screen and (max-width: 900px) {
-  .section__pic-profile {
+  .section__pic-container {
     display: none;
   }
 
@@ -118,12 +112,6 @@
     flex-direction: column;
     gap: 0.5rem;
     text-align: center;
-  }
-
-  .section__pic-container {
-    width: auto;
-    height: 46vh;
-    justify-content: center;
   }
 
   .section__text__p2 {
